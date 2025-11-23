@@ -8,6 +8,7 @@ import Category from '@/views/Category.vue'
 import Login from '@/views/Login.vue'
 import Register from '@/views/Register.vue'
 import Favorites from '@/views/Favorites.vue' // <-- YENİ İMPORT EKLENDİ
+import Showcase from '@/views/Showcase.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -33,6 +34,11 @@ const routes = [
     path: '/favorites',
     name: 'Favorites',
     component: Favorites
+  },
+  {
+    path: '/test', // Tarayıcıda /test yazınca açılacak
+    name: 'Showcase',
+    component: Showcase
   }
   // ------------------------------------
 ]

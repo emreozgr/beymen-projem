@@ -17,7 +17,7 @@
     <BContainer fluid class="main-bar py-4 d-flex align-items-center justify-content-between" style="padding-left: 50px; padding-right: 50px;">
 
       <BNavbarBrand :to="{ name: 'Home' }" class="text-dark logo-text" style="flex-shrink: 0; padding-left: 100px;">
-        LUSVİON <span class="dot"></span>
+        BEYMEN <span class="dot"></span>
       </BNavbarBrand>   
       
       <div class="search-placeholder w-100 mx-4 d-none d-lg-block">
